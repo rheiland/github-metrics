@@ -15,7 +15,7 @@ We try to capture the UI for this in the following section and then share the em
 
 ## Obtaining user metrics?
 
-[[https://gist.githubusercontent.com/rheiland/042f9903c40d773072d5cf558689545b/raw/1bc7cf2e32ca66f8235543ad0d984b9602ee5505/github-metrics1.jpeg]]
+[images/github-metrics1.jpeg]
 
 
 ```
