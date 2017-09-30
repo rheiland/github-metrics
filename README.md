@@ -15,7 +15,7 @@ We try to capture the UI for this in the following section and then share the em
 
 ## Obtaining user metrics?
 
-[images/github-metrics1.jpeg]
+[[/images/github-metrics1.jpeg|foo]]
 
 
 ```
