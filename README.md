@@ -15,7 +15,14 @@ We try to capture the UI for this in the following section and then share the em
 
 ## Obtaining user metrics?
 
-![foo1](/images/github-metrics1.jpeg "foo1")
+![caption](/images/github-repo-Insights.jpeg "my caption")
+![caption](/images/github-Insights-Graphs-Traffic.jpeg "my caption")
+![caption](/images/github-releases-0-annotate.jpeg "my caption")
+![caption](/images/github-new-release-0.jpeg "my caption")
+![caption](/images/github-new-release-1.jpeg "my caption")
+![caption](/images/github-new-release-2.jpeg "my caption")
+![caption](/images/github-attach-binaries.jpeg "my caption")
+![caption](/images/github-metrics8-after-download.jpeg "my caption")
 
 
 ```
