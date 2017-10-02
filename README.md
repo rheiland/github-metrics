@@ -48,10 +48,12 @@ the # of downloads of binary file(s) can be obtained (via the GitHub API - see b
 
 
 One can use the <i>curl</i> command to invoke GitHub's API to obtain the <i>download_count</i> for any
-binary attachments to a release:
+binary attachments to a release (pipe into <i>egrep</i> to extract minimum info):
 ```
-$ curl -s https://api.github.com/repos/rheiland/cmake_learn/releases | grep download_count
-        "download_count": 2,
+$ curl -s https://api.github.com/repos/rheiland/cmake_learn/releases | egrep '"name"|"download_count"'
+    "name": "Initial release - woohoo!",
+        "name": "cmake_learn.tar.gz",
+        "download_count": 3,
 ```
 <hr>
 
