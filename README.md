@@ -1,6 +1,9 @@
 ## GitHub Metrics: What's Possible for User Downloads? (Sep 2017)
 
-This article was spurred by a question from [@MathCancer](https://twitter.com/MathCancer/status/913020325964771328) about obtaining download metrics from GitHub. More specifically, for academics providing open source software on GitHub, how can they track downloads? Regardless of one's opinion about the value of this metric, it would be a welcome GitHub service.
+This document was spurred by a question from [@MathCancer](https://twitter.com/MathCancer/status/913020325964771328) 
+about obtaining download metrics from GitHub. More specifically, for academics providing open source software 
+on GitHub, how can they track downloads? Regardless of one's opinion about the value of this metric, it would 
+be a welcome GitHub service.
 
 TL;DR
 
@@ -24,7 +27,12 @@ traffic for the previous 14 days.
 
 ![caption](/images/github-repo-Insights.jpeg "")
 ![caption](/images/github-Insights-Graphs-Traffic.jpeg "")
+
+<!------------------------------------------------------------>
 <hr>
+
+The following screen captures demonstrate how one would create a <i>Release</i> of software in a repo.
+Unfortunately, the resulting release bundles (.zip and .tar.gz) will have no download metrics associated with them.
 
 ![caption](/images/github-releases-0-annotate.jpeg "")
 ![caption](/images/github-new-release-0.jpeg "")
