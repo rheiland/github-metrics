@@ -36,7 +36,7 @@ In addition to the automatic creation of <i>Source code</i> downloads (.zip and 
 also posible to manually upload/attach a "binary" file to your release. Unlike the <i>Source code</i> downloads,
 the # of downloads of binary file(s) can be obtained (via the GitHub API - see below).
 ![caption](/images/github-attach-binaries.jpeg "")
-![caption](/images/github-metrics8-after-download.jpeg "")
+![caption](/images/github-metrics7-after-Update-release-OK.jpeg "")
 
 
 One can use the <i>curl</i> command to invoke GitHub's API to obtain the <i>download_count</i> for any
