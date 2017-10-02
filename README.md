@@ -13,14 +13,25 @@ We try to capture the UI for this in the following section and then share the em
 
 <hr>
 
-## Obtaining user metrics?
+<!------------------------------------------------------------>
+## User metrics
+
+Clicking on <i>Insights</i>, <i>Graphs</i> will display tabbed options for graphs. Then click on the <i>Traffic</i> tab to show user
+traffic for the previous 14 days.
 
 ![caption](/images/github-repo-Insights.jpeg "")
 ![caption](/images/github-Insights-Graphs-Traffic.jpeg "")
+<hr>
+
 ![caption](/images/github-releases-0-annotate.jpeg "")
 ![caption](/images/github-new-release-0.jpeg "")
 ![caption](/images/github-new-release-1.jpeg "")
 ![caption](/images/github-new-release-2.jpeg "")
+<hr>
+
+In addition to the automatic creation of <i>Source code</i> downloads (.zip and .tar.gz) for a release, it is
+also posible to manually upload/attach a "binary" file to your release. Unlike the <i>Source code</i> downloads,
+the # of downloads of binary file(s) can be obtained (via the GitHub API - see below).
 ![caption](/images/github-attach-binaries.jpeg "")
 ![caption](/images/github-metrics8-after-download.jpeg "")
 
@@ -31,6 +42,7 @@ $ curl -s https://api.github.com/repos/rheiland/cmake_learn/releases | grep down
 ```
 <hr>
 
+<!------------------------------------------------------------>
 ## Email thread with GitHub support
 To: support@github.com
 
