@@ -6,6 +6,9 @@ TL;DR
 
 * GitHub seems to place more emphasis on developer/contributor metrics than user metrics
 
+* it's not possible to obtain the number of downloads of the <i>Source code</i> (.zip, .tar.gz) bundles generated
+by a release.
+
 * it's possible to obtain stats about "Traffic", but it's just for the previous 14-days and it's just for clones and views and doesn't include, for example, downloaded releases.
 * it's possible to upload a "binary" asset (e.g. a .zip, .tar.gz, .exe) as part of a Release and, using the [GitHub API](https://developer.github.com/v3/), obtain the number of times an asset was downloaded (over all time). However, it's not possible to have a binary asset replace  "Source code" (.zip or .tar.gz) in the Release section. 
 
@@ -36,6 +39,8 @@ the # of downloads of binary file(s) can be obtained (via the GitHub API - see b
 ![caption](/images/github-metrics8-after-download.jpeg "")
 
 
+One can use the <i>curl</i> command to invoke GitHub's API to obtain the <i>download_count</i> for any
+binary attachments to a release:
 ```
 $ curl -s https://api.github.com/repos/rheiland/cmake_learn/releases | grep download_count
         "download_count": 2,
