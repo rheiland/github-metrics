@@ -31,7 +31,7 @@ traffic for the previous 14 days.
 <!------------------------------------------------------------>
 <hr>
 
-The following screen captures demonstrate how one would create a <i>Release</i> of software in a repo.
+The following screenshots demonstrate how one would create a <i>Release</i> of software in a repo.
 Unfortunately, the resulting release bundles (.zip and .tar.gz) will have no download metrics associated with them.
 
 ![caption](/images/github-releases-0-annotate.jpeg "")
